@@ -2,7 +2,7 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <meta content="template_contact_us_v7_gfs"><!-- WitB TMPL TYPE -->
+  <meta content="template_contact_us_v7.1_gfs"><!-- WitB TMPL TYPE -->
   <title>page title here | Cisco</title>
 
   <!-- START GENERAL META DATA -->
@@ -45,11 +45,7 @@
   <link rel="stylesheet" href="https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/witb/1464056/eu_bannnertext.css">
   <!-- END EU COOKIE BANNER SCRIPTS -->
 
-  <style>
-    .w50{
-      float: right;
-    }
-  </style>
+  
 </head>
 
 <body class="" style="border: none;">
@@ -68,35 +64,12 @@
       </div>
     </div>
   </header>
+  
+<!-- START FULL WIDTH BLADE -->
   <div class="blade max-width content cf">
-    <div class="w50 right">
-      <div class="form-container">
-        <span class="form-title">Complete this form. <br>
-          <span style="color: #939597; font-size: 16px;" class="required">* required fields</span>
-        </span>
-        
-<!-- START PLACE FORM HERE -->
-        [FORM]
-<!-- END PLACE FORM HERE -->    
-        
-        
-<!-- START KEYBOARD SCRIPT -->
-<script type="text/javascript">
-	document.getElementsByName('emailAddress')[0].type = 'email';
-	document.getElementsByName('busPhone')[0].type = 'tel';
-</script> 
-<!-- END KEYBOARD SCRIPT -->      
-        
 
-
-
-        
-      </div>
-
-    </div>
-    <!-- .w50.right -->
-
-    <div class="w50 left">
+<!-- START LEFT SIDE 50% WIDTH BLADE -->
+  <div class="w50 left stack">
       <h2>Do you need help with something else?</h2>
       <div class="help-item">
         <a href="//www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html?elqTrackId=1e267a2eec004ca185b8bd32a435259f" target="_blank">
@@ -123,9 +96,34 @@
         </a>
       </div>
     </div>
-    <!--.w50.left -->
+<!-- END LEFT SIDE 50% WIDTH BLADE -->
+
+<!-- START RIGHT SIDE 50% WIDTH BLADE -->
+    <div class="w50 right stack">
+      <div class="form-container">
+        <span class="form-title">Complete this form. <br>
+          <span style="color: #939597; font-size: 16px;" class="required">* required fields</span>
+        </span>
+        
+<!-- START PLACE FORM here -->
+        [FORM]
+<!-- END PLACE FORM here -->        
+        
+        
+<!-- START KEYBOARD SCRIPT -->
+<script type="text/javascript">
+	document.getElementsByName('emailAddress')[0].type = 'email';
+	document.getElementsByName('busPhone')[0].type = 'tel';
+</script> 
+<!-- END KEYBOARD SCRIPT -->      
+        
+      </div>
+
+    </div>
+<!-- END RIGHT SIDE 50% WIDTH BLADE -->
 
   </div>
+<!-- END FULL WIDTH BLADE -->
 
   <footer>
     <div class="blade max-width footer cf">
